@@ -1,178 +1,66 @@
-Nikita Rozumniy
+# Nikita Rozumniy
 
-Target Position: AI Automation Engineer
+**AI Automation Engineer**
 
-Location: Germany
+Germany · nikita.rozumniy77@gmail.com · GitHub: [github.com/nikita-automation](https://github.com/nikita-automation) · LinkedIn: [TODO]
 
-⸻
+---
 
-Professional Profile
+## Professional Profile
 
-AI Automation Engineer focused on designing, building and deploying AI-powered workflow automation systems.
+AI Automation Engineer who builds production automation systems for real businesses — not demos. I design end-to-end pipelines that connect ordering platforms, payment data, documents, and communication channels using n8n, Python, and modern AI APIs, running on self-hosted Linux infrastructure that I administer myself.
 
-Hands-on experience in creating end-to-end automation pipelines using n8n, Make.com, OpenAI APIs and self-hosted infrastructure. Developed automation solutions integrating Telegram, WordPress, Airtable, Google Workspace, RSS feeds, AI voice generation, AI image generation and business process automation.
+Recent work: a document automation system for a food-delivery business that eliminated ~4 hours of daily manual work by turning every incoming order into a print-ready accounting document within seconds — delivered by e-mail and archived to Google Drive, with a legally compliant 3-year retention policy.
 
-Experienced in deploying and maintaining Linux-based servers, working with Docker fundamentals, Git version control, REST APIs, HTTP integrations and self-hosted n8n environments.
+---
 
-Passionate about replacing repetitive manual work with scalable AI-powered automation.
+## Experience
 
-⸻
+### Freelance AI Automation Engineer — self-employed
+*2025 — present · remote (clients in Ukraine / EU)*
 
-Core Competencies
+**Invoice automation for a food-delivery business (Kyiv)** — [github.com/nikita-automation/choice-invoice-automation](https://github.com/nikita-automation/choice-invoice-automation)
 
-* AI Workflow Automation
-* Business Process Automation
-* Workflow Architecture
-* API Integration
-* REST API
-* HTTP
-* Webhooks
-* AI Agents
-* LLM Integration
-* Self-hosted Infrastructure
-* Process Optimization
-* AI Content Automation
+- Automated the creation of ~70 accounting documents ("видаткова накладна") per day, replacing ~4 hours of daily manual Excel work
+- Event-driven architecture: ChoiceQR webhook → n8n → ChoiceQR Open API enrichment → Python/ReportLab PDF generator → dual delivery (SMTP e-mail + Google Drive backup)
+- PDF output replicates the accountant's legacy Excel template on A5: Cyrillic fonts, one-line item rows with auto-shrink, totals spelled out in Ukrainian words
+- Idempotent processing (SQLite dedup guard) makes webhook retries and manual replays safe; 46 real orders processed on launch day
+- OAuth2 integrations with three providers (ChoiceQR, Google Drive, Gmail); all secrets in n8n's encrypted credential store
+- Data-retention-as-code: cron + scheduled n8n workflow auto-delete documents after 3 years, matching the client's published privacy policy (which I helped update)
 
-⸻
+**AI content and communication automations (selected client and production projects)**
 
-Technical Stack
+- **AI Reels Analysis Platform** — pipeline that collects Instagram Reels via Apify, transcribes with Whisper, analyses content with GPT and produces structured content briefs
+- **AI Telegram Assistant** — self-hosted assistant (n8n + OpenAI + Telegram Bot API) with conversation memory and routing logic
+- **AI WordPress Publishing Pipeline** — RSS feeds → AI-written articles with generated images → automatic WordPress publishing
+- **AI Call Analysis System** — audio recordings → Whisper transcription → ChatGPT extraction of structured business insights
+- **AI Voice & Avatar Generation** — ElevenLabs / HeyGen pipelines orchestrated through Airtable and Google Drive
 
-Automation
+---
 
-* n8n
-* Make.com
-* Workflow Design
-* Webhooks
+## Technical Skills
 
-Artificial Intelligence
+**Automation & Integration:** n8n (self-hosted, incl. management via REST API), Make.com, webhook architectures, REST APIs, OAuth2 flows, JSON mapping, idempotent pipeline design, error handling & retries
 
-* OpenAI API
-* ChatGPT
-* Whisper
-* DeepSeek
-* ElevenLabs
-* HeyGen
-* Leonardo AI
+**Programming:** Python (automation services, PDF generation with ReportLab, data parsing), JavaScript (n8n code nodes), SQL (SQLite, PostgreSQL fundamentals), Bash
 
-Backend & Infrastructure
+**AI Services:** OpenAI API (GPT, Whisper), prompt engineering, ElevenLabs, HeyGen, DeepSeek
 
-* Linux (Ubuntu Server)
-* Docker
-* Docker Volumes
-* PM2
-* Git
-* REST API
-* HTTP
-* JSON
-* SQLite
-* PostgreSQL (Fundamentals)
-* Nginx
-* SSH
+**Infrastructure:** Linux (Ubuntu VPS) administration, Docker, Nginx reverse proxy, PM2, SSH, cron, Git/GitHub, backup & data-retention automation
 
-Platforms & Services
+**Platforms:** Telegram Bot API, WordPress REST API, Google Workspace (Drive, Sheets, Docs, Gmail/SMTP), Airtable, Apify, ChoiceQR Open API
 
-* Telegram Bot API
-* WordPress
-* Airtable
-* Google Sheets
-* Google Docs
-* Google Drive
-* RSS
-* Apify
+---
 
-⸻
+## Languages
 
-Featured Projects
+- Ukrainian — native
+- Russian — native
+- German — working proficiency (B2)
+- English — technical working proficiency (documentation, code, written communication)
 
-AI Telegram Assistant
+---
 
-Designed a self-hosted AI assistant using n8n, OpenAI API and Telegram Bot API with conversation memory, routing logic and automated responses.
+## Professional Goal
 
-⸻
-
-AI Reels Analysis Platform
-
-Built an automation pipeline for collecting Instagram Reels, extracting transcripts, analysing content with AI and generating structured outputs for future content creation.
-
-⸻
-
-AI WordPress Publishing Platform
-
-Created an automated publishing pipeline that transforms RSS feeds into AI-generated articles with images and publishes them directly to WordPress.
-
-⸻
-
-AI Voice Generation Pipeline
-
-Developed an automation using ElevenLabs, Airtable and Google Drive for AI voice generation and file management.
-
-⸻
-
-AI Call Analysis System
-
-Built a workflow for processing audio recordings with Whisper and ChatGPT, automatically extracting structured business insights.
-
-⸻
-
-AI Avatar Generation Pipeline
-
-Integrated Airtable with HeyGen for automated AI avatar creation and workflow management.
-
-⸻
-
-AI Content Automation Platform
-
-Designed multiple AI automation workflows connecting OpenAI, Telegram, Google Workspace, Airtable and WordPress for end-to-end content production.
-
-⸻
-
-Infrastructure Experience
-
-* Self-hosted n8n deployment
-* Linux VPS administration
-* PM2 process management
-* Docker-based environments
-* Reverse proxy configuration with Nginx
-* Git version control
-* SSH server administration
-* Backup management
-* Workflow deployment
-* AI service integrations
-
-⸻
-
-Learning & Professional Development
-
-Completed extensive practical training focused on:
-
-* AI Automation
-* n8n
-* Make.com
-* REST APIs
-* Docker
-* Git
-* PostgreSQL
-* Linux
-* HTTP
-* AI Agents
-* Prompt Engineering
-* Workflow Design
-* Business Automation
-* AI Content Systems
-
-Applied acquired knowledge by building production-style automation projects and maintaining a self-hosted AI automation environment.
-
-⸻
-
-Languages
-
-* Ukrainian — Native
-* Russian — Native
-* German — Working proficiency
-* English — Technical documentation and reading
-
-⸻
-
-Professional Goal
-
-Build scalable AI automation systems that reduce manual work, integrate modern AI models into business processes and help organizations automate repetitive tasks through reliable workflow architecture.
+Join a team where automation is treated as engineering: reliable integrations, measurable business impact, and AI applied where it actually removes manual work.
