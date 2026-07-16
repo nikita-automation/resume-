@@ -2,7 +2,7 @@
 
 **AI Automation Engineer**
 
-Germany · nikita.rozumniy77@gmail.com · GitHub: [github.com/nikita-automation](https://github.com/nikita-automation) · LinkedIn: [TODO]
+Germany · nikita.rozumniy77@gmail.com · GitHub: [github.com/nikita-automation](https://github.com/nikita-automation) · LinkedIn: [linkedin.com/in/nikita-rozumniy](https://www.linkedin.com/in/nikita-rozumniy)
 
 ---
 
@@ -56,7 +56,7 @@ Recent work: a document automation system for a food-delivery business that elim
 
 - Ukrainian — native
 - Russian — native
-- German — working proficiency (B2)
+- German — C1
 - English — technical working proficiency (documentation, code, written communication)
 
 ---

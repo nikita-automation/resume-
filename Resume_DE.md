@@ -2,7 +2,7 @@
 
 **AI Automation Engineer**
 
-Deutschland · nikita.rozumniy77@gmail.com · GitHub: [github.com/nikita-automation](https://github.com/nikita-automation) · LinkedIn: [TODO]
+Deutschland · nikita.rozumniy77@gmail.com · GitHub: [github.com/nikita-automation](https://github.com/nikita-automation) · LinkedIn: [linkedin.com/in/nikita-rozumniy](https://www.linkedin.com/in/nikita-rozumniy)
 
 ---
 
@@ -56,7 +56,7 @@ Aktuelles Projekt: ein Dokumenten-Automatisierungssystem für einen Lieferdienst
 
 - Ukrainisch — Muttersprache
 - Russisch — Muttersprache
-- Deutsch — gute Kenntnisse (B2)
+- Deutsch — C1
 - Englisch — technische Arbeitskenntnisse (Dokumentation, Code, schriftliche Kommunikation)
 
 ---
